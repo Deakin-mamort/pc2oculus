@@ -1,0 +1,2 @@
+pc2oculus
+-DCATKIN_DEVEL_PREFIX=/home/mick/pc2oculus/devel -DCMAKE_INSTALL_PREFIX=/home/mick/pc2oculus/install -G Unix Makefiles
