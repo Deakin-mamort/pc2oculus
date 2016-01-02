@@ -17,6 +17,8 @@ std_msgs/String.h
 -
 geometry_msgs/Point.h
 -
+sensor_msgs/PointCloud.h
+-
 pcl/point_types.h
 -
 pcl_ros/filters/filter.h
