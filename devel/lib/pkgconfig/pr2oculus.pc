@@ -1,8 +1,0 @@
-prefix=/home/mick/pc2oculus/devel
-
-Name: pr2oculus
-Description: Description of pr2oculus
-Version: 0.0.0
-Cflags: -I/home/mick/pc2oculus/src/pc2oculus/include
-Libs: -L/home/mick/pc2oculus/devel/lib 
-Requires: 

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pr2oculus")
-set(pr2oculus_MAINTAINER "Michael Mortimer <mamort@deakin.edu.au>")
-set(pr2oculus_DEPRECATED "")
-set(pr2oculus_VERSION "0.0.0")
-set(pr2oculus_BUILD_DEPENDS "rviz")
-set(pr2oculus_RUN_DEPENDS "rviz")
-set(pr2oculus_BUILDTOOL_DEPENDS "catkin")

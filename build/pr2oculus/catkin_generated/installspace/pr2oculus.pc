@@ -1,8 +1,0 @@
-prefix=/home/mick/pc2oculus/install
-
-Name: pr2oculus
-Description: Description of pr2oculus
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mick/pc2oculus/install/lib 
-Requires: 

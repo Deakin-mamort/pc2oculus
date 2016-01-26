@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mick/pc2oculus/src
+CMAKE_SOURCE_DIR = /home/prorip/pc2oculus/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mick/pc2oculus/build
+CMAKE_BINARY_DIR = /home/prorip/pc2oculus/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mick/pc2oculus/build/CMakeFiles /home/mick/pc2oculus/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prorip/pc2oculus/build/CMakeFiles /home/prorip/pc2oculus/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mick/pc2oculus/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prorip/pc2oculus/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

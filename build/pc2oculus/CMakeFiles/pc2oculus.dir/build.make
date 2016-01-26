@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mick/pc2oculus/src
+CMAKE_SOURCE_DIR = /home/prorip/pc2oculus/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mick/pc2oculus/build
+CMAKE_BINARY_DIR = /home/prorip/pc2oculus/build
 
 # Include any dependencies generated for this target.
 include pc2oculus/CMakeFiles/pc2oculus.dir/depend.make
@@ -50,18 +50,18 @@ include pc2oculus/CMakeFiles/pc2oculus.dir/progress.make
 include pc2oculus/CMakeFiles/pc2oculus.dir/flags.make
 
 pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o: pc2oculus/CMakeFiles/pc2oculus.dir/flags.make
-pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o: /home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mick/pc2oculus/build/CMakeFiles $(CMAKE_PROGRESS_1)
+pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o: /home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/prorip/pc2oculus/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o"
-	cd /home/mick/pc2oculus/build/pc2oculus && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o -c /home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
+	cd /home/prorip/pc2oculus/build/pc2oculus && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o -c /home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
 
 pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.i"
-	cd /home/mick/pc2oculus/build/pc2oculus && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp > CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.i
+	cd /home/prorip/pc2oculus/build/pc2oculus && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp > CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.i
 
 pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.s"
-	cd /home/mick/pc2oculus/build/pc2oculus && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp -o CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.s
+	cd /home/prorip/pc2oculus/build/pc2oculus && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp -o CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.s
 
 pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o.requires:
 .PHONY : pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o.requires
@@ -79,258 +79,258 @@ pc2oculus_OBJECTS = \
 # External object files for target pc2oculus
 pc2oculus_EXTERNAL_OBJECTS =
 
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/build.make
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librviz.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libdefault_plugin.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGL.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libSM.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libICE.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libX11.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libXext.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_geometry.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_transport.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libinteractive_markers.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liblaser_geometry.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libclass_loader.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libPocoFoundation.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libresource_retriever.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroslib.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2_ros.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libactionlib.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libmessage_filters.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liburdf.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_bridge.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/liblog4cxx.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librostime.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libcpp_common.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtXml.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_common.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_kdtree.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_octree.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_search.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_surface.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_sample_consensus.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI2.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGenericFiltering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGeovis.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCharts.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_io.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_filters.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_features.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_keypoints.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_registration.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_segmentation.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_recognition.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_visualization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_people.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_outofcore.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_tracking.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_apps.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI2.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGenericFiltering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGeovis.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCharts.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librviz.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libdefault_plugin.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGL.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libSM.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libICE.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libX11.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libXext.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_geometry.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_transport.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libinteractive_markers.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liblaser_geometry.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libclass_loader.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libPocoFoundation.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libresource_retriever.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroslib.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2_ros.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libactionlib.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libmessage_filters.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liburdf.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_bridge.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/liblog4cxx.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librostime.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libcpp_common.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_common.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_kdtree.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_octree.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_search.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_surface.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_sample_consensus.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_io.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_filters.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_features.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_keypoints.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_registration.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_segmentation.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_recognition.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_visualization.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_people.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_outofcore.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_tracking.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_apps.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtksys.so.5.8.0
-/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus"
-	cd /home/mick/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pc2oculus.dir/link.txt --verbose=$(VERBOSE)
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/build.make
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librviz.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libdefault_plugin.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGL.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libSM.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libICE.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libX11.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libXext.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_geometry.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_transport.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libinteractive_markers.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liblaser_geometry.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libclass_loader.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libPocoFoundation.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libresource_retriever.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroslib.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2_ros.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libactionlib.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libmessage_filters.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liburdf.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_bridge.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/liblog4cxx.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librostime.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libcpp_common.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtXml.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_common.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_kdtree.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_octree.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_search.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_surface.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_sample_consensus.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI2.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGenericFiltering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGeovis.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCharts.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_io.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_filters.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_features.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_keypoints.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_registration.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_segmentation.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_recognition.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_visualization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_people.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_outofcore.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_tracking.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_apps.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libOpenNI2.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGenericFiltering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGeovis.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCharts.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librviz.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libdefault_plugin.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libGL.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libSM.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libICE.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libX11.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libXext.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_geometry.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libimage_transport.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libinteractive_markers.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liblaser_geometry.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libclass_loader.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libPocoFoundation.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libresource_retriever.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroslib.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2_ros.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libactionlib.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libmessage_filters.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libtf2.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/liburdf.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_bridge.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/liblog4cxx.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/librostime.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /opt/ros/indigo/lib/libcpp_common.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_common.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_kdtree.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_octree.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_search.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_surface.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_sample_consensus.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_io.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_filters.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_features.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_keypoints.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_registration.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_segmentation.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_recognition.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_visualization.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_people.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_outofcore.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_tracking.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libpcl_apps.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkViews.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkInfovis.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkWidgets.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkVolumeRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkHybrid.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkParallel.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkRendering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkImaging.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkGraphics.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkIO.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkFiltering.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtkCommon.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: /usr/lib/libvtksys.so.5.8.0
+/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus: pc2oculus/CMakeFiles/pc2oculus.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus"
+	cd /home/prorip/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pc2oculus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-pc2oculus/CMakeFiles/pc2oculus.dir/build: /home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus
+pc2oculus/CMakeFiles/pc2oculus.dir/build: /home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus
 .PHONY : pc2oculus/CMakeFiles/pc2oculus.dir/build
 
 pc2oculus/CMakeFiles/pc2oculus.dir/requires: pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o.requires
 .PHONY : pc2oculus/CMakeFiles/pc2oculus.dir/requires
 
 pc2oculus/CMakeFiles/pc2oculus.dir/clean:
-	cd /home/mick/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -P CMakeFiles/pc2oculus.dir/cmake_clean.cmake
+	cd /home/prorip/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -P CMakeFiles/pc2oculus.dir/cmake_clean.cmake
 .PHONY : pc2oculus/CMakeFiles/pc2oculus.dir/clean
 
 pc2oculus/CMakeFiles/pc2oculus.dir/depend:
-	cd /home/mick/pc2oculus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mick/pc2oculus/src /home/mick/pc2oculus/src/pc2oculus /home/mick/pc2oculus/build /home/mick/pc2oculus/build/pc2oculus /home/mick/pc2oculus/build/pc2oculus/CMakeFiles/pc2oculus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/prorip/pc2oculus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prorip/pc2oculus/src /home/prorip/pc2oculus/src/pc2oculus /home/prorip/pc2oculus/build /home/prorip/pc2oculus/build/pc2oculus /home/prorip/pc2oculus/build/pc2oculus/CMakeFiles/pc2oculus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pc2oculus/CMakeFiles/pc2oculus.dir/depend
 

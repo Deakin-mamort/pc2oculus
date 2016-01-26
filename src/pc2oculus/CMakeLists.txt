@@ -31,5 +31,7 @@ add_executable(pc2oculus src/pc2oculus.cpp)
 #Specify libraries against which to link (line for each executable)
 target_link_libraries(pc2oculus ${catkin_LIBRARIES})
 target_link_libraries(pc2oculus Qt4::QtGui Qt4::QtXml)
-target_link_libraries ( pc2oculus ${PCL_LIBRARIES} ${catkin_LIBRARIES} )
+target_link_libraries(pc2oculus ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+
+
 

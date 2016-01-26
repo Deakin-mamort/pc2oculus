@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mick/pc2oculus/src
+CMAKE_SOURCE_DIR = /home/prorip/pc2oculus/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mick/pc2oculus/build
+CMAKE_BINARY_DIR = /home/prorip/pc2oculus/build
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -56,10 +56,10 @@ pc2oculus/CMakeFiles/tf_generate_messages_py.dir/build: tf_generate_messages_py
 .PHONY : pc2oculus/CMakeFiles/tf_generate_messages_py.dir/build
 
 pc2oculus/CMakeFiles/tf_generate_messages_py.dir/clean:
-	cd /home/mick/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/prorip/pc2oculus/build/pc2oculus && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : pc2oculus/CMakeFiles/tf_generate_messages_py.dir/clean
 
 pc2oculus/CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/mick/pc2oculus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mick/pc2oculus/src /home/mick/pc2oculus/src/pc2oculus /home/mick/pc2oculus/build /home/mick/pc2oculus/build/pc2oculus /home/mick/pc2oculus/build/pc2oculus/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/prorip/pc2oculus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prorip/pc2oculus/src /home/prorip/pc2oculus/src/pc2oculus /home/prorip/pc2oculus/build /home/prorip/pc2oculus/build/pc2oculus /home/prorip/pc2oculus/build/pc2oculus/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pc2oculus/CMakeFiles/tf_generate_messages_py.dir/depend
 
