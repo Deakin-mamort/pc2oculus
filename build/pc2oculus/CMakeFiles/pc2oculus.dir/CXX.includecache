@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
+/home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp
 ios
 -
 sstream
@@ -3318,6 +3318,16 @@ pcl/PCLPointCloud2.h
 pcl/Vertices.h
 -
 
+/usr/include/pcl-1.7/pcl/TextureMesh.h
+Eigen/Core
+-
+string
+-
+pcl/PCLPointCloud2.h
+-
+pcl/Vertices.h
+-
+
 /usr/include/pcl-1.7/pcl/Vertices.h
 string
 -
@@ -3401,6 +3411,8 @@ pcl/console/print.h
 /usr/include/pcl-1.7/pcl/common/impl/io.hpp
 pcl/common/concatenate.h
 -
+pcl/common/copy_point.h
+-
 pcl/point_types.h
 -
 
@@ -3416,6 +3428,8 @@ pcl/pcl_base.h
 pcl/PointIndices.h
 -
 pcl/conversions.h
+-
+pcl/exceptions.h
 -
 locale
 -
@@ -3663,6 +3677,8 @@ boost/algorithm/string.hpp
 -
 boost/date_time/posix_time/posix_time.hpp
 -
+boost/chrono.hpp
+-
 boost/tokenizer.hpp
 -
 boost/foreach.hpp
@@ -3672,6 +3688,8 @@ boost/shared_array.hpp
 boost/interprocess/sync/file_lock.hpp
 -
 boost/interprocess/permissions.hpp
+-
+boost/iostreams/device/mapped_file.hpp
 -
 boost/signals2.hpp
 -
@@ -3688,6 +3706,10 @@ pcl/io/boost.h
 cmath
 -
 sstream
+-
+pcl/PolygonMesh.h
+-
+pcl/TextureMesh.h
 -
 
 /usr/include/pcl-1.7/pcl/io/impl/pcd_io.hpp
@@ -3953,6 +3975,10 @@ boost/mpl/assert.hpp
 -
 boost/mpl/bool.hpp
 -
+Eigen/Core
+-
+Eigen/src/StlSupport/details.h
+-
 
 /usr/include/pcl-1.7/pcl/point_types.h
 pcl/pcl_macros.h
@@ -3960,6 +3986,12 @@ pcl/pcl_macros.h
 bitset
 -
 pcl/register_point_struct.h
+-
+boost/mpl/contains.hpp
+-
+boost/mpl/fold.hpp
+-
+boost/mpl/vector.hpp
 -
 pcl/impl/point_types.hpp
 -

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/prorip/pc2oculus/src/pc2oculus/src/pc2oculus.cpp" "/home/prorip/pc2oculus/build/pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o"
+  "/home/mick/pc2oculus/src/pc2oculus/src/pc2oculus.cpp" "/home/mick/pc2oculus/build/pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,7 +31,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/vtk-5.8"
-  "/home/prorip/pc2oculus/src/pc2oculus/include"
+  "/home/mick/pc2oculus/src/pc2oculus/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "/usr/include/OGRE"

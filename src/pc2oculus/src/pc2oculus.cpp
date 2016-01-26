@@ -33,20 +33,23 @@ public:
     pubsub();
     void subscriber_callback(const PointCloud::ConstPtr&);
     void subscriber_callback1(const visualization_msgs::MarkerArray::ConstPtr&);
+
 private:
     ros::NodeHandle nh;
     ros::Subscriber subscriber;
-    ros::Publisher publisher;
+    ros::Publisher points_publisher;
+    ros::Publisher colors_publisher;
 };
 
 pubsub::pubsub() {
-    publisher = nh.advertise<sensor_msgs::PointCloud>("/points", 1);
+    points_publisher = nh.advertise<sensor_msgs::PointCloud>("/points", 1);
+    colors_publisher = nh.advertise<sensor_msgs::PointCloud>("/colors",1);
     //publisher = nh.advertise<sensor_msgs::PointCloud2>("/points", 1);
-    //subscriber = nh.subscribe<PointCloud>("/octomap_point_cloud_centers", 1, &pubsub::subscriber_callback, this);
     subscriber = nh.subscribe<visualization_msgs::MarkerArray> ("/occupied_cells_vis_array", 1, &pubsub::subscriber_callback1, this);
     //subscriber = nh.subscribe<PointCloud>("/camera/depth/points", 1, &pubsub::subscriber_callback, this);
 }
 
+/*
 void pubsub::subscriber_callback(const PointCloud::ConstPtr& raw)
 {
 
@@ -65,12 +68,11 @@ void pubsub::subscriber_callback(const PointCloud::ConstPtr& raw)
               << "\tWidth:" << clean->width
               << "\tFields: (" << pcl::getFieldsList(*clean) << ")."
               << std::endl;
-    */
 
 
     const PointCloud::Ptr filtered(new PointCloud);
 
-    /*
+
     // Create the filtering object
     pcl::StatisticalOutlierRemoval<pcl::PointXYZRGB> sor;
     sor.setInputCloud (clean);
@@ -90,12 +92,12 @@ void pubsub::subscriber_callback(const PointCloud::ConstPtr& raw)
     //publisher.publish(voxelized);
     //std::cout << filtered->points;
 
-/*
+
     std::cout << "Filtered - \tHeight:" << voxelized->height
               << "\tWidth:" << voxelized->width
               //<< "\tFields: (" << pcl::getFieldsList(*filtered) << ")."
               << std::endl;
-*/
+
     geometry_msgs::Point32 p;
     BOOST_FOREACH (const pcl::PointXYZ& pt, clean->points){
           //std::cout << pt.x << ", " << pt.y << ", " << pt.z << "\n";
@@ -109,41 +111,54 @@ void pubsub::subscriber_callback(const PointCloud::ConstPtr& raw)
     cloud.points.clear();
 
 }
-
+*/
 void pubsub::subscriber_callback1(const visualization_msgs::MarkerArray::ConstPtr& raw)
 {
-    sensor_msgs::PointCloud2 output;
+    //Lists for point position and color to publish
+    sensor_msgs::PointCloud point_list;
+    sensor_msgs::PointCloud color_list;
+
     BOOST_FOREACH (const visualization_msgs::Marker& marker, raw->markers){
         if(marker.points.size() > (1.1*marker_count))
         {
+            //store positions into points
             geometry_msgs::Point32 p;
             BOOST_FOREACH (const geometry_msgs::Point& pt, marker.points){
                   //std::cout << pt.x << ", " << pt.y << ", " << pt.z << "\n";
                   p.x = pt.x;
                   p.y = pt.y;
                   p.z = pt.z;
-                  cloud.points.push_back(p);
+                  point_list.points.push_back(p);
+            }
+            //store colors into colors
+
+            geometry_msgs::Point32 color;
+            BOOST_FOREACH (const std_msgs::ColorRGBA& rgba, marker.colors ){
+                  //std::cout << "colour: " << rgba.r << "\n";
+                  color.x = rgba.r;
+                  color.y = rgba.g;
+                  color.z = rgba.b;
+                  color_list.points.push_back(color);
 
             }
 
-            std::cout << "Published\n";
-            publisher.publish(cloud);
-            marker_count=marker.points.size();
 
-            /*
-            BOOST_FOREACH (const std_msgs::ColorRGBA colour, marker.colors ){;}
-            std::cout << "colours: " << marker.colors.size() << "\n";
-            BOOST_FOREACH (const geometry_msgs::Point point, marker.points ){;}
-            std::cout << "points: " << marker.points.size() << "\n";
+            //Publish position and colors of each point in cloud
+            points_publisher.publish(point_list);
+            std::cout << "Published Points\n";
+            ros::Duration(0.1).sleep();
+            colors_publisher.publish(color_list);
+            std::cout << "Published Colors\n";
             marker_count=marker.points.size();
-            publisher.publish(output);
-            //  frame++;
-            */
+            std::cout << "Marker Count: " << marker_count << "\n";
+            std::cout << "Points Size: " << marker.points.size() << "\n";
+            std::cout << "Colors Size: " << marker.colors.size() << "\n";
 
-        }
+          }
     }
-
 }
+
+//}
 int main(int argc, char** argv)
 {
   ros::init(argc, argv, "pc2oculus");

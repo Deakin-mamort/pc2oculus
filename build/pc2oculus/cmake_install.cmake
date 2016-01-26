@@ -1,8 +1,8 @@
-# Install script for directory: /home/prorip/pc2oculus/src/pc2oculus
+# Install script for directory: /home/mick/pc2oculus/src/pc2oculus
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/prorip/pc2oculus/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/mick/pc2oculus/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/prorip/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculus.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mick/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculus.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pc2oculus/cmake" TYPE FILE FILES
-    "/home/prorip/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculusConfig.cmake"
-    "/home/prorip/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculusConfig-version.cmake"
+    "/home/mick/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculusConfig.cmake"
+    "/home/mick/pc2oculus/build/pc2oculus/catkin_generated/installspace/pc2oculusConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pc2oculus" TYPE FILE FILES "/home/prorip/pc2oculus/src/pc2oculus/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pc2oculus" TYPE FILE FILES "/home/mick/pc2oculus/src/pc2oculus/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

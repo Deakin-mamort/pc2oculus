@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o"
-  "/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus.pdb"
-  "/home/prorip/pc2oculus/devel/lib/pc2oculus/pc2oculus"
+  "/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus.pdb"
+  "/home/mick/pc2oculus/devel/lib/pc2oculus/pc2oculus"
 )
 
 # Per-language clean rules from dependency scanning.

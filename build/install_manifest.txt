@@ -1,0 +1,10 @@
+/home/mick/pc2oculus/install/_setup_util.py
+/home/mick/pc2oculus/install/env.sh
+/home/mick/pc2oculus/install/setup.bash
+/home/mick/pc2oculus/install/setup.sh
+/home/mick/pc2oculus/install/setup.zsh
+/home/mick/pc2oculus/install/.rosinstall
+/home/mick/pc2oculus/install/lib/pkgconfig/pc2oculus.pc
+/home/mick/pc2oculus/install/share/pc2oculus/cmake/pc2oculusConfig.cmake
+/home/mick/pc2oculus/install/share/pc2oculus/cmake/pc2oculusConfig-version.cmake
+/home/mick/pc2oculus/install/share/pc2oculus/package.xml
