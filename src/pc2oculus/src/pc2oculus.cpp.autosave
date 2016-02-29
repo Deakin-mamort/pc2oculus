@@ -131,6 +131,7 @@ void pubsub::subscriber_callback1(const visualization_msgs::MarkerArray::ConstPt
                   p.x = pt.x;
                   p.y = pt.y;
                   p.z = pt.z;
+                  octomap.ConstPtr
                   octomap.points.push_back(p);
             }
             //store colors into colors

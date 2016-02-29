@@ -370,23 +370,34 @@ pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o
  /usr/include/pcl-1.7/pcl/TextureMesh.h
  /usr/include/pcl-1.7/pcl/Vertices.h
  /usr/include/pcl-1.7/pcl/cloud_iterator.h
+ /usr/include/pcl-1.7/pcl/common/centroid.h
  /usr/include/pcl-1.7/pcl/common/common.h
  /usr/include/pcl-1.7/pcl/common/concatenate.h
  /usr/include/pcl-1.7/pcl/common/copy_point.h
  /usr/include/pcl-1.7/pcl/common/eigen.h
+ /usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp
+ /usr/include/pcl-1.7/pcl/common/impl/centroid.hpp
  /usr/include/pcl-1.7/pcl/common/impl/common.hpp
  /usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
  /usr/include/pcl-1.7/pcl/common/impl/eigen.hpp
  /usr/include/pcl-1.7/pcl/common/impl/io.hpp
  /usr/include/pcl-1.7/pcl/common/impl/projection_matrix.hpp
+ /usr/include/pcl-1.7/pcl/common/impl/vector_average.hpp
  /usr/include/pcl-1.7/pcl/common/io.h
  /usr/include/pcl-1.7/pcl/common/point_tests.h
  /usr/include/pcl-1.7/pcl/common/projection_matrix.h
  /usr/include/pcl-1.7/pcl/common/time.h
+ /usr/include/pcl-1.7/pcl/common/vector_average.h
  /usr/include/pcl-1.7/pcl/console/print.h
  /usr/include/pcl-1.7/pcl/conversions.h
  /usr/include/pcl-1.7/pcl/correspondence.h
  /usr/include/pcl-1.7/pcl/exceptions.h
+ /usr/include/pcl-1.7/pcl/features/feature.h
+ /usr/include/pcl-1.7/pcl/features/impl/feature.hpp
+ /usr/include/pcl-1.7/pcl/features/impl/normal_3d.hpp
+ /usr/include/pcl-1.7/pcl/features/impl/normal_3d_omp.hpp
+ /usr/include/pcl-1.7/pcl/features/normal_3d.h
+ /usr/include/pcl-1.7/pcl/features/normal_3d_omp.h
  /usr/include/pcl-1.7/pcl/filters/boost.h
  /usr/include/pcl-1.7/pcl/filters/filter.h
  /usr/include/pcl-1.7/pcl/filters/filter_indices.h
@@ -435,3 +446,10 @@ pc2oculus/CMakeFiles/pc2oculus.dir/src/pc2oculus.cpp.o
  /usr/include/pcl-1.7/pcl/search/organized.h
  /usr/include/pcl-1.7/pcl/search/pcl_search.h
  /usr/include/pcl-1.7/pcl/search/search.h
+ /usr/include/pcl-1.7/pcl/surface/boost.h
+ /usr/include/pcl-1.7/pcl/surface/impl/marching_cubes.hpp
+ /usr/include/pcl-1.7/pcl/surface/impl/marching_cubes_rbf.hpp
+ /usr/include/pcl-1.7/pcl/surface/impl/reconstruction.hpp
+ /usr/include/pcl-1.7/pcl/surface/marching_cubes.h
+ /usr/include/pcl-1.7/pcl/surface/marching_cubes_rbf.h
+ /usr/include/pcl-1.7/pcl/surface/reconstruction.h
